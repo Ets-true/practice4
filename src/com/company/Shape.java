@@ -32,14 +32,10 @@ public abstract class Shape {
     }
 
     abstract double getArea();
-
     abstract double getPerimetr();
 
     @Override
     public String toString() {
-        return "Shape{" +
-                "color='" + color + '\'' +
-                ", filled=" + filled +
-                '}';
+        return "Shape{" + "color='" + color + '\'' + ", filled=" + filled + '}';
     }
 }
