@@ -6,7 +6,7 @@ public abstract class Shape {
     protected boolean filled;
 
     public Shape() {
-        this.color = "transparent";
+        this.color = "white";
         filled = false;
     }
 
